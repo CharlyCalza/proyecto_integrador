@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+        <style>
+            .row {
+              padding: 5px;
+              margin: 10px;  
+              width: auto;
+            }
+            .container-fluid {
+                background-color: rgb(82, 82, 82);
+                display: flex;
+                align-items: center;
+                justify-content: right;
+                width: 100%;
+                height: 50px;
+                padding: 10px;
+                margin-right: 0;
+                margin-left: 0;
+            }
+            .logo {
+                width: 4%;
+                margin-right: 10px;
+            }
+            .nav-link {
+                margin-right: 500px;
+            }
+            .navbar-pri {
+                color: white;
+                text-decoration: none;
+                padding: 10px;            
+            }
+            .navbar {
+                color: grey;
+                text-decoration: none;
+                padding: 10px;        
+            }
+            .navbar-ult {
+                color: green;
+                text-decoration: none;
+                padding: 10px;
+                padding-right: 100px;        
+            }
+            .container1 {
+                color: green;
+                background-color: rgb(82, 82, 82);
+            }
+            .nav-item1 {
+                column-rule-color: green;
+                display: inline-block;
+            }
+            .nav-itemu {
+                column-rule-color: green;
+                display: inline-block;
+            }
+            .titulo1 {
+                text-align: center;
+                padding: 0;
+                margin-top:20px;
+                margin-bottom: 0;
+            }
+            .titulo2 {
+                text-align: center;
+                padding: 0;
+                margin: 0;
+            }
+            .titulo3 {
+                text-align: center;
+                padding: 0;
+                margin-top:0;
+                margin-bottom: 0;
+            }
+            .container2 {
+                background-color: white;
+                color: white;
+                position: center;
+                width: 80%;
+                height: 300;
+                margin: 0 auto;
+            }
+            .text-overlay {
+                position:absolute;
+                top:60%;
+                left: 60%;
+                transform: translate(-20%,-20%);
+                color: white;
+                text-align: right;
+            }
+            .contenido10{
+                border-color: white;
+                color: white;
+                margin: 2px;
+            }
+            .contenido11{
+                background-color: green;
+                color: white;
+                margin: 2px;
+            }
+            .contenido1 {
+                background-color: orange;
+                color: black;
+                display: inline-block;
+                width: 25%;
+                padding: 5px;
+                }
+            .contenido2 {
+                background-color: cadetblue;
+                color: white;
+                display: inline-block;
+                width: 25%;
+                padding: 5px;
+                margin: 5px;
+            }
+            .contenido3 {
+                background-color: rgb(81, 81, 81);
+                color: white;
+                display: inline-block;
+                width: 25%;
+                padding: 5px;
+                }
+            .contenido4 {
+                background-color: red;
+                color: white;
+                display: inline-block;
+                width: 25%;
+                padding: 5px;
+                margin: 5px;
+            }
+            .col-6 {
+                padding: 0px;
+            }
+            .columna-negra {
+                background-color: rgb(60, 61, 66);
+                color: white;
+                padding: 15px;
+            }
+            .conoce {
+            border-color: white;
+            color: white;
+            }
+            .no-gutters {
+                padding: 0;
+                margin: 0;
+            }
+            .datos {
+                background-color: white;
+                color: gray;
+                position: center;
+                padding: 0;
+                width: 60%;
+                height: 300;
+                margin: 0 auto;
+            }
+            .btn-primary {
+                background-color: rgb(122, 196, 61);
+                border-color: rgb(122, 196, 61);
+            }
+            .navbar2 {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            background-color: #0d3548;
+            }
+            .navbar2 a {
+            padding-inline: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-decoration: none;
+            color: white;
+            }
+            .navbar2 a:hover {
+            background-color: #1b546e;
+            }
+        </style>>
+    </head>
+   
+    <body>
+        <div class="container-fluid">
+            <img src="codoacodo.png" class="logo">
+            <a class="nav-link disabled" href="#"> Conf Bs As </a>
+            <a class="navbar-pri d-inline" href="#">La conferencia</a>
+            <a class="navbar d-inline" href="#">Los oradores</a>
+            <a class="navbar d-inline" href="#">El lugar y la fecha</a>
+            <a class="navbar d-inline" href="#">Conviértete en orador</a>
+            <a class="navbar-ult d-inline" href="#">Comprar tickets</a>
+        </div>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="ba1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="ba2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="ba3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="text-overlay">
+                <h2> Conf Bs As </h2>
+                <p> Bs As llega por primera vez a Argentina. Un evento para compartir con
+                        nuestra comunidad el conocimiento y experiencia de los expertos que
+                        están creando el futuro de Internet. Ven a conocer a miembros del 
+                        evento, a otros estudiantes de Codo a Codo y los oradores de primer 
+                        nivel que tenemos para ti. Te esperamos</p>
+                <div class="btn-content">
+                    <buttom class="btn contenido10">Quiero ser orador</buttom>
+                    <buttom class="btn contenido11">Comprar ticket</buttom>
+            </div>
+        </div>
+    </div>
+    
+    <h6 class="titulo1">CONOCE A LOS</h6>
+    <h2 class="titulo2">ORADORES</h2>
+    
+    <div class="container2">    
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                <img src="steve.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="btn-content">
+                            <buttom class="btn contenido1">JavaScript</buttom>
+                            <buttom class="btn contenido2">React</buttom>
+                        </div>
+                        <h5 class="card-title">Steve Jobs</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etvoluptatibusperferendis delenti totam fuga sequi iste! Facilis explicabo repellar ut similiqueincidunt? Ullam nobis beatae, coporis facilis veniammagni ratione!</p>
+                    </div>
+                    <div class="card-footer">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="bill.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="btn-content">
+                            <buttom class="btn contenido1">JavaScript</buttom>
+                            <buttom class="btn contenido2">React</buttom>
+                        </div>
+                        <h5 class="card-title">Bill Gates</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etvoluptatibusperferendis delenti totam fuga sequi iste! Facilis explicabo repellar ut similiqueincidunt? Ullam nobis beatae, coporis facilis veniammagni ratione!</p>
+                    </div>
+                    <div class="card-footer">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="ada.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="btn-content">
+                            <buttom class="btn contenido3">Negocios</buttom>
+                            <buttom class="btn contenido4">Startups</buttom>
+                        </div>
+                        <h5 class="card-title">Ada Lovelace</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etvoluptatibusperferendis delenti totam fuga sequi iste! Facilis explicabo repellar ut similiqueincidunt? Ullam nobis beatae, coporis facilis veniammagni ratione!</p>
+                    </div>
+                    <div class="card-footer">
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row no-gutters">
+            <div class="col-6">
+                <img src="honolulu.jpg" alt="..." style="width: 100%">
+            </div>
+            <div class="col-6 columna-negra">
+                <h3>Bs As - Octubre</h3>
+                <p>Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los Estados Unidos. Honolulu es la 
+                    mas sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área
+                    urbana en la costa sureste se la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado 
+                    consolidada que cubre toda la ciudad (aproximadamente 600 km de superficie).
+                </p>
+                <div class="row-col-6">
+                    <button type="submit" class="btn conoce">Conocé más</button>
+                </div>
+            </div>
+        </div>
+
+        <h6 class="titulo1">CONVIERTETE EN UN</h6>
+        <h2 class="titulo2">ORADOR</h2>
+        <h6 class="titulo3">Anotate como orador para dar una charla ignite. 
+            Cuéntanso de que quieres hablar!</h6>
+
+    <div class="datos">
+        <div class="row g-3">
+            <div class="col-md">
+                <div class="form-floating">
+                <input type="nombre" class="form-control" id="floatingInputGrid" placeholder="Nombre">
+                <label for="floatingInputGrid">Nombre</label>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="form-floating">
+                    <div class="form-floating">
+                        <input type="apellido" class="form-control" id="floatingInputGrid" placeholder="apellido">
+                        <label for="floatingInputGrid">Apellido</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" id="floatingTextarea" placeholder="Sobre que quieres hablar?" style="height: 100px"></textarea>
+                <label for="floatingTextarea">Sobre que queres hablar?</label>
+            </div>
+            <a> Recuerda incluir un título para tu charla</a>
+            <div class="row-cols-1">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </div>
+    </div>
+    <div class="navbar2">
+        <a href="#">Preguntas frecuentes</a>
+        <a href="#">Contáctenos</a>
+        <a href="#">Prensa</a>
+        <a href="#">Conferencias</a>
+        <a href="#">Términos y condiciones</a>
+        <a href="#">Privacidad</a>
+        <a href="#">Estudiantes</a>
+      </div>
+
+    </body> 
+   
+</html>
